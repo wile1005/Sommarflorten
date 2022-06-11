@@ -1,0 +1,29 @@
+main
+{
+  background-color: white;
+  padding: 1em;
+  position: absolute;
+  top: 30em;
+  left: 10em;
+  width: 85%;
+  height: 40%;
+}
+article
+{
+  margin-bottom: 1em;
+  gap: 10px;
+  display: table-row;
+  border: solid;
+  border-width: 10px;
+  border-color: black;
+}
+p
+{
+  display: table-cell;
+  font-size: 20px;
+}
+a
+{
+  display: table-cell;
+  padding-left: 100px;
+}

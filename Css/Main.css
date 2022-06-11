@@ -12,7 +12,7 @@ body
   background-size: cover;
   background-repeat: no-repeat;
 }
-a
+a.Main
 {
   color: white;
   position: relative;
@@ -26,7 +26,7 @@ a
   opacity: 0;
   font-size: 3.5em;
 }
-a:hover
+a.Main:hover
 {
   background-color: #194fee;
   opacity: 1;
