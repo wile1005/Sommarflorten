@@ -5,29 +5,50 @@
   font-family: sans-serif;
   font-weight: bold;
   text-decoration: none;
+  list-style: none;
+  color: white;
 }
 body
 {
-  background-image: url("/Images/Bild.png");
-  background-size: cover;
-  background-repeat: no-repeat;
+  display: flex;
+  height: 100vh;
+  background: linear-gradient(180deg, rgba(253,43,78,1) 0%, rgba(255,106,214,1) 100%);
 }
-a.Main
+div.wrap
 {
-  color: white;
-  position: relative;
-  top: 13.75em;
-  left: 17em;
-  padding-left: 0.25em;
-  padding-right: 0.5em;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  margin: -0.5em;
-  opacity: 0;
-  font-size: 3.5em;
+  height: 100%;
+  width: 100%;
+  background-image: url("../images/hjärta.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-a.Main:hover
+main
 {
-  background-color: #194fee;
-  opacity: 1;
+  top: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1
+{
+  background: linear-gradient(180deg, rgba(105,77,250,1) 0%, rgba(18,99,236,1) 100%);
+  font-size: 8em;
+  padding: 0.5em;
+  border-radius: 0.1em;
+}
+nav
+{
+  font-size: 4em;
+  background: linear-gradient(180deg, rgba(18,99,236,1) 0%, rgba(105,77,250,1) 100%);
+  border-radius: 0.25em;
+  margin-top: -0.5em;
+}
+ul
+{
+  display: flex;
+}
+li
+{
+  margin: 1em;
 }
