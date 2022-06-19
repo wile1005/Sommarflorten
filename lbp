@@ -76,7 +76,7 @@ newpost() { read -erp "Give a title for your post/episode:
 	echo "AddDescription \"$title\" \"$torrentfile\" \"$shortdesc\" \"$audiofile\" \"$duration\" \"$cover\" \"$episode\" \"$season\" \"$url.html\" " >>  "$archivefile"|| { echo "Error: Is $archivefile writeable?"; exit; }
 	( [ -f "$webdir/blog/.drafts/$url.html" ] || [ -f "$webdir/blog/$url.html" ] ) && echo "There is already an existing draft or post of that same name/URL." && exit
 
-	printf "<a href='%s%s/%s'>Download</a>\\n<a href='%s%s/%s'>Torrent</a>\\n<img src='%s%s/%s'>\\n<p>%s</p>" "$website" "$audiodir" "$audiofile" "$website" "$torrentdir" "$torrentfile" "$website" "$smallcoverdir" "$cover" "$shortdesc" > "$webdir/blog/.drafts/$url.html"
+	printf "<div class='content'>\\n<img src='%s%s/%s'>\\n<p>%s</p>\\n</div>\\n<div class='Links'>\\n<a href='%s%s/%s'>Ljudfil</a>\\n<a href='%s%s/%s'>Torrent</a>\\n</div>" "$website" "$smallcoverdir" "$cover" "$shortdesc" "$website" "$audiodir" "$audiofile" "$website" "$torrentdir" "$torrentfile" > "$webdir/blog/.drafts/$url.html"
 
 	$EDITOR "$webdir/blog/.drafts/$url.html" ;
 }
@@ -111,7 +111,7 @@ publish() { \
 	tmpdir=$(mktemp -d)
 	printf "<!DOCTYPE html>\\n<html lang=\"en\">\\n<head>\\n<title>%s</title>\\n<link rel='stylesheet' type='text/css' href='%s'>\\n<meta charset='utf-8'/>\\n</head>\\n<body>\\n<h1>%s</h1>\\n<small>[<a href='%s#%s'>link</a>&mdash;<a href='%s'>standalone</a>]</small>\\n%s\\n<footer>by <strong><a href='%s'>%s</a></strong></footer>\\n</body>\\n\\n</html>" "$realname" "$css" "$realname" "../$blogfile" "$base" "$basefile" "$(cat "$webdir/blog/.drafts/$basefile")" "$website" "$name" > "$webdir/blog/$basefile"
 printf "\\n<item>\\n<title>%s</title>\\n<guid isPermaLink=\"true\">%s%s/%s</guid>\\n<pubDate>%s</pubDate>\\n<description><![CDATA[\\n<p>%s</p>\\n]]></description>\\n<content:encoded><![CDATA[\\n%s\\n]]></content:encoded>\\n<enclosure length=\"%s\" type=\"audio/mpeg\" url=\"%s%s/%s\" />\\n<itunes:episodeType>full</itunes:episodeType>\\n<itunes:duration>%s</itunes:duration>\\n</item>\\n\\n" "$realname" "$website" "$audiodir" "$audiofile" "$rssdate" "$shortdesc" "$(cat "$webdir/blog/.drafts/$basefile")" "$enclosure_length" "$website" "$audiodir" "$audiofile" "$duration" >  "$tmpdir/rss"
-	printf "<div class='entry'>\\n<h2 id='%s'>%s</h2>\\n<small>[<a href='#%s'>link</a>&mdash;<a href='%s'>standalone</a>]</small>\\n%s\\n<small>%s</small>\\n</div>\\n" "$base" "$realname" "$base" "blog/$basefile" "$(cat "$webdir/blog/.drafts/$basefile")" "$webdate" > "$tmpdir/html"
+	printf "<article class='Avsnitt'>\\n<h2 id='%s'>%s</h2>\\n<small>Avsnitt %s, Säsong %s - %s</small>\\n%s\\n</article>\\n" "$base" "$realname" "$episode" "$season" "$webdate" "$(cat "$webdir/blog/.drafts/$basefile")" > "$tmpdir/html"
 	printf "<li>%s &ndash; <a href=\"blog/%s\">%s</a></li>\\n" "$(date '+%Y %b %d')" "$basefile" "$realname" > "$tmpdir/index"
 	sed -i "/<!-- LBP -->/r $tmpdir/html" "$blogfile"
 	sed -i "/<!-- LBP -->/r $tmpdir/rss" "$rssfile"

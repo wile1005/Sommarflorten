@@ -29,6 +29,30 @@
 
 <!-- LBP -->
 
+<item>
+<title>Flörtens begynnelse</title>
+<guid isPermaLink="true">https://sommarflörten.com/audio/S1E1.mp3</guid>
+<pubDate>Sun, 19 Jun 2022 21:59:50 +0200</pubDate>
+<description><![CDATA[
+<p>I första avsnittet av Sommarflörten förklarar oskar flörtens regler samt frågar gruppen filosofiska frågor.</p>
+]]></description>
+<content:encoded><![CDATA[
+<div class='content'>
+<img src='https://sommarflörten.com/img/smallcoverart/sommar-grafik-1.png'>
+<p>I första avsnittet av Sommarflörten förklarar oskar flörtens regler samt frågar gruppen filosofiska frågor.</p>
+</div>
+<div class='Links'>
+<a href='https://sommarflörten.com/audio/S1E1.mp3'>Ljudfil</a>
+<a href='https://sommarflörten.com/torrent/S1E1.mp3.torrent'>Torrent</a>
+</div>
+]]></content:encoded>
+<enclosure length="38693185" type="audio/mpeg" url="https://sommarflörten.com/audio/S1E1.mp3" />
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:duration>2870</itunes:duration>
+</item>
+
+
+
 
 </channel>
 </rss>
