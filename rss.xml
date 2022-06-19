@@ -18,20 +18,20 @@
 	<itunes:name>Oskar Sandblom, Nathan Habtegaber, Gustav Danielsson, Emil Wallin</itunes:name>
 	<itunes:email>countrygirlsmakedo@protonmail.com</itunes:email>
 </itunes:owner>
-<itunes:image href="https://sommarflörten.com/img/coverart/sommar-grafik-1.png" />
+<itunes:image href="https://xn--sommarflrten-cjb.com/img/coverart/sommar-grafik-1.png" />
 <itunes:type>episodic</itunes:type>
 <itunes:category text="Society &amp; Culture">
 	<itunes:category text="Relationships"/>
 </itunes:category>
 <itunes:explicit>false</itunes:explicit>
-<link>http://sommarflörten.com/rss.xml</link>
-<atom:link href="http://sommarflörten.com/rss" rel="self" type="application/rss+xml" />
+<link>http://xn--sommarflrten-cjb.com/rss.xml</link>
+<atom:link href="http://xn--sommarflrten-cjb.com/rss.xml" rel="self" type="application/rss+xml" />
 
 <!-- LBP -->
 
 <item>
 <title>Flörtens begynnelse</title>
-<guid isPermaLink="true">https://sommarflörten.com/audio/S1E1.mp3</guid>
+<guid isPermaLink="true">https://xn--sommarflrten-cjb.com/audio/S1E1.mp3</guid>
 <pubDate>Sun, 19 Jun 2022 21:59:50 +0200</pubDate>
 <description><![CDATA[
 <p>I första avsnittet av Sommarflörten förklarar oskar flörtens regler samt frågar gruppen filosofiska frågor.</p>
@@ -46,7 +46,7 @@
 <a href='https://sommarflörten.com/torrent/S1E1.mp3.torrent'>Torrent</a>
 </div>
 ]]></content:encoded>
-<enclosure length="38693185" type="audio/mpeg" url="https://sommarflörten.com/audio/S1E1.mp3" />
+<enclosure length="38693185" type="audio/mpeg" url="https://xn--sommarflrten-cjb.com/audio/S1E1.mp3" />
 <itunes:episodeType>full</itunes:episodeType>
 <itunes:duration>2870</itunes:duration>
 </item>
