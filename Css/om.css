@@ -1,0 +1,120 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+body
+{
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 2.4em;
+  background: url("../img/hjärta.png") repeat 0 0,linear-gradient(180deg, rgba(253,43,78,1) 0%, rgba(255,106,214,1) 100%);
+}
+div.Wrap
+{
+
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+div.List
+{
+  display: flex;
+  max-width: 100vh; /* jag vet inte varför widthen ska vara här webbsidan ger mig huvudverk det funkar iallfall */
+  background: linear-gradient(180deg, rgba(105,77,250,1) 0%, rgba(18,99,236,1) 100%);
+  padding: 2em;
+  border-radius: 1em;
+  gap: 2em;
+}
+article
+{
+  display: flex;
+  flex-direction: column;
+  gap:1em;
+  padding-bottom: 1em;
+  border-bottom: solid;
+  width: 25vh;
+}
+.content img {
+  max-width: 20em;
+  max-height: 20em;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5em;
+}
+header
+{
+  background-color: rgba(105,77,250,1);
+  padding: 2em;
+  border-radius: 1em;
+  margin-bottom: -1em;
+}
+nav {
+  background: linear-gradient(180deg, rgba(18,99,236,1) 0%, rgba(105,60,250,1) 100%);
+  border-radius: 10px;
+  font-size: 0.8em;
+  align-items: center;
+}
+nav ul
+{
+  display: flex;
+  padding: 1em
+}
+nav li {
+  margin: 0em 1em 0 1em;
+}
+.service {
+  margin-top: 2em;
+  width: 55%;
+}
+.service ul {
+  display: flex;
+  justify-content: space-around;
+}
+.service a img {
+  max-width: 4em;
+}
+h1
+{
+  font-size: 5em;
+  font-weight: bold;
+}
+div.Links
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10%;
+}
+h2
+{
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: center;
+}
+p
+{
+  font-size: 1em;
+}
+a
+{
+  font-size: 1.5em;
+}

@@ -17,7 +17,7 @@ div.Wrap
 {
   height: 100%;
   width: 100%;
-  background-image: url("../Images/hjärta.png");
+  background-image: url("../img/hjärta.png");
   display: flex;
   align-items: center;
   justify-content: center;
@@ -31,6 +31,7 @@ main
 }
 h1
 {
+  text-align: center;
   background: linear-gradient(180deg, rgba(105,77,250,1) 0%, rgba(18,99,236,1) 100%);
   font-size: 6em;
   padding: 0.5em;

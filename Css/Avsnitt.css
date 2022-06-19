@@ -15,11 +15,11 @@ body
   justify-content: center;
   display: flex;
   margin-top: 2.4em;
-  background: url("../Images/hjärta.png") repeat 0 0,linear-gradient(180deg, rgba(253,43,78,1) 0%, rgba(255,106,214,1) 100%);
+  background: url("../img/hjärta.png") repeat 0 0,linear-gradient(180deg, rgba(253,43,78,1) 0%, rgba(255,106,214,1) 100%);
 }
 div.Wrap
 {
-  width: 100vh;
+
 }
 header {
   display: flex;
@@ -34,6 +34,7 @@ main
 }
 div.List
 {
+  max-width: 100vh; /* jag vet inte varför widthen ska vara här webbsidan ger mig huvudverk det funkar iallfall */
   background: linear-gradient(180deg, rgba(105,77,250,1) 0%, rgba(18,99,236,1) 100%);
   padding: 2em;
   border-radius: 1em;
@@ -51,8 +52,9 @@ article
   max-height: 20em;
 }
 .content {
+  gap: 2em;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: flex-start;
 }
 header
