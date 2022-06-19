@@ -1,5 +1,0 @@
-RedirectMatch (?i)/avsnitt /Html/Avsnitt.html
-RedirectMatch (?i)/om /Html/om.html
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ $1.html [NC,L]

@@ -24,7 +24,7 @@
 	<itunes:category text="Relationships"/>
 </itunes:category>
 <itunes:explicit>false</itunes:explicit>
-<link>http://sommarflörten.com/rss</link>
+<link>http://sommarflörten.com/rss.xml</link>
 <atom:link href="http://sommarflörten.com/rss" rel="self" type="application/rss+xml" />
 
 <!-- LBP -->
