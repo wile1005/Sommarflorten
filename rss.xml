@@ -29,32 +29,36 @@
 		<itunes:category text="Relationships"/>
 	</itunes:category>
 	<itunes:explicit>false</itunes:explicit>
-	<link>http://xn--sommarflrten-cjb.com/rss.xml</link>
+	<link>http://xn--sommarflrten-cjb.com/Html/Avsnitt.html</link>
 	<atom:link href="http://xn--sommarflrten-cjb.com/rss.xml" rel="self" type="application/rss+xml" />
 
 <!-- LBP -->
 
 <item>
-<title>Flörtens begynnelse</title>
-<guid isPermaLink="true">https://sommarflörten.com/audio/S1E1.mp3</guid>
-<pubDate>Mon, 20 Jun 2022 00:49:22 +0200</pubDate>
-<description><![CDATA[
-<p>I första avsnittet av Sommarflörten förklarar oskar flörtens regler samt frågar gruppen filosofiska frågor.</p>
-]]></description>
-<content:encoded><![CDATA[
-<div class='content'>
-<img src='https://sommarflörten.com/img/smallcoverart/sommar-grafik-1.png'>
-<p>I första avsnittet av Sommarflörten förklarar oskar flörtens regler samt frågar gruppen filosofiska frågor.</p>
-</div>
-<div class='Links'>
-<a href='https://sommarflörten.com/audio/S1E1.mp3'>Ljudfil</a>
-<a href='https://sommarflörten.com/torrent/S1E1.mp3.torrent'>Torrent</a>
-</div>
-]]></content:encoded>
-<enclosure length="38693185" type="audio/mpeg" url="https://sommarflörten.com/audio/S1E1.mp3" />
-<itunes:episodeType>full</itunes:episodeType>
-<itunes:duration>2870</itunes:duration>
-<link>https://sommarflörten.com/Html/Avsnitt.html#11</link>
+	<title>Flörtens begynnelse</title>
+	<guid isPermaLink="true">https://sommarflörten.com/audio/S1E1.mp3</guid>
+	<pubDate>Mon, 20 Jun 2022 00:49:22 +0200</pubDate>
+	<description>
+		<![CDATA[<p>I första avsnittet av Sommarflörten förklarar oskar flörtens regler samt frågar gruppen filosofiska frågor.</p>]]>
+	</description>
+	<content:encoded><![CDATA[
+	<div class='content'>
+	<img src='https://sommarflörten.com/img/smallcoverart/sommar-grafik-1.png'>
+	<p>I första avsnittet av Sommarflörten förklarar oskar flörtens regler samt frågar gruppen filosofiska frågor.</p>
+	</div>
+	<div class='Links'>
+	<a href='https://sommarflörten.com/audio/S1E1.mp3'>Ljudfil</a>
+	<a href='https://sommarflörten.com/torrent/S1E1.mp3.torrent'>Torrent</a>
+	</div>
+	]]></content:encoded>
+	<enclosure 
+		length="38693185"
+		type="audio/mpeg"
+		url="https://xn--sommarflrten-cjb.com/audio/S1E1.mp3"
+	/>
+	<itunes:episodeType>full</itunes:episodeType>
+	<itunes:duration>2870</itunes:duration>
+	<link>https://xn--sommarflrten-cjb.com/Html/Avsnitt.html#11</link>
 </item>
 
 
