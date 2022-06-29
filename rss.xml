@@ -13,7 +13,7 @@
 	<language>sv-se</language>
 	<pubDate>Sat, 11 Jun 2022 22:23:18 +0300</pubDate>
 	<image>
-		<url>"https://xn--sommarflrten-cjb.com/img/coverart/sommar-grafik-1.png"</url>
+		<url>"https://xn--sommarflrten-cjb.com/img/coverart/cover1.png"</url>
 		<title>Sommarflörten</title>
 		<link>https://xn--sommarflrten-cjb.com</link>
 	</image>
@@ -23,7 +23,7 @@
 		<itunes:email>countrygirlsmakedo@protonmail.com</itunes:email>
 	</itunes:owner>
 	<itunes:author>Oskar Sandblom, Nathan Habtegaber, Gustav Danielsson, Emil Wallin</itunes:author>
-	<itunes:image href="https://xn--sommarflrten-cjb.com/img/coverart/sommar-grafik-1.png"/>
+	<itunes:image href="https://xn--sommarflrten-cjb.com/img/coverart/cover1.png"/>
 	<itunes:type>episodic</itunes:type>
 	<itunes:category text="Society &amp; Culture">
 		<itunes:category text="Relationships"/>
@@ -35,6 +35,31 @@
 <!-- LBP -->
 
 <item>
+<title>HOT or NOT?</title>
+<guid isPermaLink="true">https://xn--sommarflrten-cjb.com/audio/S1E3.mp3</guid>
+<pubDate>Wed, 29 Jun 2022 22:43:32 +0200</pubDate>
+<description><![CDATA[
+<p>I det här avsnittet kommer vi att diskutera de många olika sortens tjejer man kan träffa under sommarflörten och tillsammans ska vi ta reda på sanningen om dem:  Are they HOT or NOT?</p>
+]]></description>
+<content:encoded><![CDATA[
+<div class='content'>
+<img src='https://xn--sommarflrten-cjb.com/img/smallcoverart/cover3.jpg'>
+<p>I det här avsnittet kommer vi att diskutera de många olika sortens tjejer man kan träffa under sommarflörten och tillsammans ska vi ta reda på sanningen om dem:  Are they HOT or NOT?</p>
+</div>
+<div class='Links'>
+<a href='https://xn--sommarflrten-cjb.com/audio/S1E3.mp3'>Ljudfil</a>
+<a href='https://xn--sommarflrten-cjb.com/torrent/S1E3.mp3.torrent'>Torrent</a>
+</div>
+]]></content:encoded>
+<enclosure length="77840145" type="audio/mpeg" url="https://xn--sommarflrten-cjb.com/audio/S1E3.mp3" />
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:duration>3243</itunes:duration>
+<link>https://xn--sommarflrten-cjb.com/Html/Avsnitt.html#31</link>
+<itunes:image href="https://xn--sommarflrten-cjb.com/img/coverart/cover3.jpg"/>
+</item>
+
+
+<item>
 <title>Konsten att jaga</title>
 <guid isPermaLink="true">https://xn--sommarflrten-cjb.com/audio/S1E2.mp3</guid>
 <pubDate>Thu, 23 Jun 2022 17:39:44 +0200</pubDate>
@@ -43,7 +68,7 @@
 ]]></description>
 <content:encoded><![CDATA[
 <div class='content'>
-<img src='https://xn--sommarflrten-cjb.com/img/smallcoverart/sommar-grafik-2.jpg'>
+<img src='https://xn--sommarflrten-cjb.com/img/smallcoverart/cover2.jpg'>
 <p>I andra avsnittet pratar gruppen om konsten att jaga. Inom avsnittet får vi även en återkomst av den ökände Vincent.</p>
 </div>
 <div class='Links'>
@@ -54,7 +79,7 @@
 <enclosure length="51231848" type="audio/mpeg" url="https://xn--sommarflrten-cjb.com/audio/S1E2.mp3" />
 <itunes:episodeType>full</itunes:episodeType>
 <itunes:duration>3728</itunes:duration>
-<itunes:image href="https://xn--sommarflrten-cjb.com/img/coverart/sommar-grafik-2.png"/>
+<itunes:image href="https://xn--sommarflrten-cjb.com/img/coverart/cover2.jpg"/>
 <link>https://xn--sommarflrten-cjb.com/Html/Avsnitt.html#21</link>
 </item>
 
@@ -68,7 +93,7 @@
 	</description>
 	<content:encoded><![CDATA[
 	<div class='content'>
-	<img src='https://sommarflörten.com/img/smallcoverart/sommar-grafik-1.png'>
+	<img src='https://sommarflörten.com/img/smallcoverart/cover1.png'>
 	<p>I första avsnittet av Sommarflörten förklarar oskar flörtens regler samt frågar gruppen filosofiska frågor.</p>
 	</div>
 	<div class='Links'>
@@ -84,6 +109,7 @@
 	<itunes:episodeType>full</itunes:episodeType>
 	<itunes:duration>2870</itunes:duration>
 	<link>https://xn--sommarflrten-cjb.com/Html/Avsnitt.html#11</link>
+	<itunes:image href="https://xn--sommarflrten-cjb.com/img/coverart/cover1.png"/>
 </item>
 
 
