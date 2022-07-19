@@ -9,7 +9,7 @@
 	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <channel>
 	<title>Sommarflörten</title>
-	<description>Sommarflörten är en podcast om ett gäng ensamma killar (på sommaren) som låtsas vet saker om relationer. Lyssna gärna på när de glömmer vad de ska prata om och gnäller om i-landsproblem. Du kan hitta mer information på "Sommarflörten.com".</description>
+	<description>Sommarflörten är en podcast om ett gäng ensamma killar (på sommaren) som låtsas veta saker om relationer. Lyssna gärna på när de glömmer vad de ska prata om och gnäller om i-landsproblem. Du kan hitta mer information på "Sommarflörten.com".</description>
 	<language>sv-se</language>
 	<pubDate>Sat, 11 Jun 2022 22:23:18 +0300</pubDate>
 	<image>
@@ -33,6 +33,31 @@
 	<atom:link href="http://xn--sommarflrten-cjb.com/rss.xml" rel="self" type="application/rss+xml" />
 
 <!-- LBP -->
+
+<item>
+<title>Kvinnoflörten</title>
+<guid isPermaLink="true">https://xn--sommarflrten-cjb.com/audio/S1E5.95.mp3</guid>
+<pubDate>Mon, 18 Jul 2022 21:55:09 +0200</pubDate>
+<description><![CDATA[
+<p>I dagens <i>specialavsnitt</i> har vi mot all förmodan två kvinnor med oss som idag ersätter Oskar och Nathan, häng med när vi utforskar kvinnornas värld och får höra deras perspektiv på våran kära flört</p>
+]]></description>
+<content:encoded><![CDATA[
+<div class='content'>
+<img src='https://xn--sommarflrten-cjb.com/img/smallcoverart/cover5.95.jpg'>
+<p>I dagens <i>specialavsnitt</i> har vi mot all förmodan två kvinnor med oss som idag ersätter Oskar och Nathan, häng med när vi utforskar kvinnornas värld och får höra deras perspektiv på våran kära flört</p>
+</div>
+<div class='Links'>
+<a href='https://xn--sommarflrten-cjb.com/audio/S1E5.95.mp3'>Ljudfil</a>
+<a href='https://xn--sommarflrten-cjb.com/torrent/S1E5.95.mp3.torrent'>Torrent</a>
+</div>
+]]></content:encoded>
+<enclosure length="112292312" type="audio/mpeg" url="https://xn--sommarflrten-cjb.com/audio/S1E5.95.mp3" />
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:duration>4679</itunes:duration>
+<link>https://xn--sommarflrten-cjb.com/Html/Avsnitt.html#5.951</link>
+<itunes:image href="https://xn--sommarflrten-cjb.com/img/coverart/cover5.95.jpg"/>
+</item>
+
 
 <item>
 <title>Relationer</title>
